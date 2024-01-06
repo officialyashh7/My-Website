@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ei=edge">
+  <title>HSAY TECH CO.</title>
+  <style>
+    *{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'poppins',sans-serif;
+  
+}
+
+header {
+  background-image: url('101.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 51px;
+  margin: 180;
+  font-weight: 500;
+}
+
+header p {
+  font-size: 22px;
+  margin: 0.5rem 0;
+}
+
+
+header a.cta:hover {
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 20px 1%;
+}
+nav img{
+  height: 200px;
+  margin-top: 10px;
+  marker-start: 100px;
+  margin-left: 20px;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: goldenrod;
+  margin: 1rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-inline-end: 10px;
+  margin-top: 0%;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 3rem 0;
+}
+
+section {
+  width: 80;
+  text-align: center;
+  margin: 2rem;
+}
+
+section h2{
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+section form {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+  background: #f2f2f2;
+}
+
+section input[type="text"],
+section input[type="email"],
+section textarea {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  border: 1px solid #333;
+}
+
+section button[type="submit"]{
+  background-color: #00137e;
+  color: #fff;
+  padding: 1rem;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: all 0.2s;
+  width: 100%;
+}
+
+section button[type="submit"]:hover{
+  background-color: #fff;
+  color: #333;
+}
+
+footer{
+  background-color: #00137e;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+  text-align: center;
+  width: 100%;
+}
+
+footer p {
+  font-size: 1rem;
+  margin: 0;
+}
+
+footer a {
+  color: #fff;
+  margin-left: 1rem;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    flex-direction: column;
+  }
+  nav {
+    flex-direction: column;
+  }
+  main {
+    flex-direction: column;
+  }
+  section {
+    width: 100%;
+  }
+}
+
+#services {
+  padding: 1rem 0;
+  text-align: center;
+}
+
+#services h2 {
+  margin-bottom: 5rem;
+}
+
+.service {
+  width: 30%;
+  display: inline-block;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.service img {
+  width: 260px;
+  margin-bottom: 1rem;
+  border-radius: 50%;
+}
+
+.service h3 {
+  margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .service {
+    width: 100%;
+    margin: 2rem 0;
+  }
+}
+
+#about {
+  padding: 50px 8%;
+  line-height: 30px;
+  justify-content: baseline;
+}
+#about img {
+  margin-top: 30px;
+}
+
+a{
+  background-color: #fff;
+  border: 1px solid #333;
+  color: #333;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  border-radius: 60px;
+  margin-top: 1rem;
+  transition: all 0.2s;
+}
+
+#commitment {
+  padding: 1rem 0;
+  text-align: center;
+}
+
+#commitment h2 {
+  margin-bottom: 5rem;
+}
+
+.commitment {
+  width: 30%;
+  display: inline-block;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.commitment img {
+  width: 260px;
+  margin-bottom: 1rem;
+  border-radius: 50%;
+}
+
+.commitment h3 {
+  margin-bottom: 1rem;
+}
+  </style> </head>
+<body>
+
+ 
+  <header>
+    <nav>
+        <img src="20.png" alt="Company Logo">
+      <ul>
+        <li><a href="#top">Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <h1>HSAY TECH CO.</h1>
+    <p>Empowering Minds, Connecting Futures</p>
+    <a href="#contact" class="cta">Get in touch</a>
+  </header>
+
+  <main>
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="service">
+      <img src="service 1.jpg" alt="Service 1">
+      <h3>Product Development & Innovation</h3>
+      <p>Collaborate with us from ideation to launch. We specialize in transforming ideas into innovative, market-ready products through agile development and cutting-edge technology.</p>
+    </div>
+    <div class="service">
+      <img src="service 2.jpeg" alt="Service 2">
+      <h3>Strategic Consultation & Growth</h3>
+      <p>Gain strategic insights and tailored guidance to propel your business forward. Our expert consultants offer scalable solutions and strategies to fuel sustainable growth.</p>
+    </div>
+    <div class="service">
+      <img src="service 3.jpeg" alt="Service 3">
+      <h3>Digital Marketing & Branding</h3>
+      <p>Elevate your brand's visibility and engagement. From digital campaigns to brand identity, our creative team crafts compelling strategies to connect you with your audience.</p>
+    </div>
+  </section>
+
+  <section id="commitment">
+    <h2>Our Commitment</h2>
+    <div class="commitment">
+      <img src="10.jpg">
+      <h3>Precision and Accuracy</h3>
+      <p>We meticulously format and type your thesis, ensuring flawless presentation.</p>
+    </div>
+    <div class="commitment">
+      <img src="11.jpg">
+      <h3>Confidentiality</h3>
+      <p>We respect the confidentiality of your research and ensure that your work remains secure and undisclosed.</p>
+    </div>
+        <div class="commitment">
+      <img src="12.png">
+      <h3>Customization</h3>
+      <p>Understanding the unique requirements of each thesis, we offer customizable services to meet individual needs.</p>
+    </div>
+  </section>
+ 
+  <section id="about">
+    <h2>About Us</h2>
+    <p>HSAY TECH CO. is a cutting-edge technology company dedicated to innovation, transformation, and enhancing the way businesses and individuals interact with technology. We specialize in developing state-of-the-art software solutions, leveraging the latest advancements in artificial intelligence, machine learning, and data analytics. Our team of skilled engineers, designers, and strategists collaborates to create tailored, impactful solutions that drive efficiency, productivity, and success for our clients. At ABC Tech, we are committed to pushing the boundaries of what's possible in the tech industry, delivering unparalleled services and products that shape the future of technology.</p>
+    <img src="about.jpg" width="100%" alt="about us">
+  </section>
+
+  
+  <section id="contact">
+    <h2></h2>
+    <script>
+      function clearForm() {
+        document.getElementById("contact").reset();
+      }
+    </script>
+    <a href="http://127.0.0.1:5500/Get%20in%20touch/get.html" target="_blank">Get in Touch</a><br>
+    <p><br></p>
+    <p><br></p>
+    <p1>Copyright &copy; HSAY TECH CO. EST2024. All rights reserved.</p1>
+  </section>
+
+  <main>
+  
+</body>
+</html>
